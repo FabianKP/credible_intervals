@@ -1,9 +1,0 @@
-README.md
-setup.py
-credible_intervals/__init__.py
-credible_intervals/credible_intervals.py
-credible_intervals.egg-info/PKG-INFO
-credible_intervals.egg-info/SOURCES.txt
-credible_intervals.egg-info/dependency_links.txt
-credible_intervals.egg-info/requires.txt
-credible_intervals.egg-info/top_level.txt
