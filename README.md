@@ -8,9 +8,8 @@ that contains a given percentage of samples as points in $\mathbb{R}^d$.
 Let $x^(1), \ldots, x^(n) \in \mathbb{R}^d$ be a sequence of random samples.
 Then, given a credibility parameter $\alpha$, this program computes vectors $l, u \in \mathbb{R}^d$
 such that
-$
-l_i <= x_i^(k) <= u_i
-$
+
+$ l_i <= x_i^(k) <= u_i $
 
 for at least $(1 - alpha) \cdot n$ indices $k$.
 
