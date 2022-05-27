@@ -11,7 +11,7 @@ such that
 
 $ l_i <= x_i^{(k)} <= u_i $
 
-for at least $(1 - \alpha) \cdot n$ indices $k$.
+for at least $\lceil (1 - \alpha) \cdot n \rceil$ values of $k$.
 
 This program is an implementation of the algorithm described on page 30 of 
 "Bayesian Computation and Stochastic Systems" by Besag, Green, Higdon and Mengersen (Statistical Science, 1995).
