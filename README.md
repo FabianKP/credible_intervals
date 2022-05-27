@@ -3,9 +3,9 @@ SIMULTANEOUS CREDIBLE INTERVALS
 
 This is a Python program to compute empirical **simultaneous credible intervals** from samples. 
 In contrast to marginal credible intervals, a simultaneous credible interval is a box $[l, u] \subset \mathbb{R}^d$
-that contains a given percentage of samples as points in $\mathbb{R}^d$.
+that contains a given percentage of samples *simultaneously*, as points in $\mathbb{R}^d$.
 
-Let $x^{(1)}, \ldots, x^{(n)} \in \mathbb{R}^d$ be a sequence of random samples.
+More precisely: Let $x^{(1)}, \ldots, x^{(n)} \in \mathbb{R}^d$ be a sequence of random samples.
 Then, given a credibility parameter $\alpha$, this program computes vectors $l, u \in \mathbb{R}^d$
 such that
 
@@ -19,7 +19,9 @@ This program is an implementation of the algorithm described on page 30 of
 Installation
 ------------
 
-You may install using the wheel-file []().
+You can download the wheel file
+[credible_intervals-1.0-py3-none-any.whl](https://github.com/FabianKP/credible_intervals/blob/main/dist/credible_intervals-1.0-py3-none-any.whl)
+and then pip-install:
 
 ```console
 pip install credible_intervals-1.0-py3-none-any.whl

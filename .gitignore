@@ -1,3 +1,4 @@
 *pycache*
 .idea/*
 *pytest_cache*
+build/*
