@@ -16,6 +16,12 @@ for at least $\lceil (1 - \alpha) \cdot n \rceil$ values of $k$.
 This program is an implementation of the algorithm described on page 30 of 
 "Bayesian Computation and Stochastic Systems" by Besag, Green, Higdon and Mengersen (Statistical Science, 1995).
 
+Disclaimer
+----------
+
+The method works well on low-dimensional samples, but breaks down for high-dimensional samples with complicated distribution. Usually you will end up
+with simultaneous credible intervals that are too large, sometimes containing *all* of the samples. Use with care.
+
 Installation
 ------------
 
