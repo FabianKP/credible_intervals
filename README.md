@@ -9,7 +9,7 @@ More precisely: Let $x^{(1)}, \ldots, x^{(n)} \in \mathbb{R}^d$ be a sequence of
 Then, given a credibility parameter $\alpha$, this program computes vectors $l, u \in \mathbb{R}^d$
 such that
 
-$ l_i <= x_i^{(k)} <= u_i $
+$$ l_i <= x_i^{(k)} <= u_i. $$
 
 for at least $\lceil (1 - \alpha) \cdot n \rceil$ values of $k$.
 
